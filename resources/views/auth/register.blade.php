@@ -13,6 +13,7 @@
         </div>
         @error('name')
             {{$message}}
+            <br>
         @enderror
         <br>
 
@@ -22,6 +23,7 @@
         </div>
         @error('email')
             {{$message}}
+            <br>
         @enderror
         <br>
 
@@ -31,6 +33,7 @@
         </div>
         @error('password')
             {{$message}}
+            <br>
         @enderror
         <br>
 
