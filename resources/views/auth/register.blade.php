@@ -30,21 +30,21 @@
         <div class="form-group">
             <label for="password">Password</label><br>
             <input type="password" name="password" id="password" placeholder="Ej. Abc$123!" required>
-        </div>
-        @error('password')
-            {{$message}}
+            @error('password')
+                {{$message}}
+                <br>
+            @enderror
             <br>
-        @enderror
-        <br>
+        </div>
 
         <div class="form-group">
             <label for="password_confirmation">Password Confirmation</label><br>
             <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Ej. Abc$123!" required>
+            @error('password_confirmation')
+                {{$message}}
+            @enderror
+            <br>
         </div>
-        @error('password_confirmation')
-            {{$message}}
-        @enderror
-        <br>
 
         <div class="form-group">
             <input type="submit" value="Send">
