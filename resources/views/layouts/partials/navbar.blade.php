@@ -1,7 +1,7 @@
 <nav>
     @guest
         <a href="#">Iniciar Sesion</a>
-        <a href="#">Registrarse</a>
+        <a href="{{route('register')}}">Registrarse</a>
     @else
         <a href="#">Home</a>
     @endguest
