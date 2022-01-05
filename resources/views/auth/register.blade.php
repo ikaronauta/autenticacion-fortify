@@ -9,27 +9,27 @@
         @csrf
         <div class="form-group">
             <label for="name">Name</label><br>
-            <input type="text" name="name" id="name" autofocus placeholder="Name..." required value="{{old('name')}}">
-        </div>
-        @error('name')
-            {{$message}}
+            <input type="text" name="name" id="name" autofocus placeholder="Name..." required value="{{old('name')}}"><br>
+            @error('name')
+                {{$message}}
+                <br>
+            @enderror
             <br>
-        @enderror
-        <br>
+        </div>
 
         <div class="form-group">
             <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="Email..." required value="{{old('email')}}">
-        </div>
-        @error('email')
-            {{$message}}
+            <input type="email" name="email" id="email" placeholder="Email..." required value="{{old('email')}}"><br>
+            @error('email')
+                {{$message}}
+                <br>
+            @enderror
             <br>
-        @enderror
-        <br>
+        </div>
 
         <div class="form-group">
             <label for="password">Password</label><br>
-            <input type="password" name="password" id="password" placeholder="Ej. Abc$123!" required>
+            <input type="password" name="password" id="password" placeholder="Ej. Abc$123!" required><br>
             @error('password')
                 {{$message}}
                 <br>
@@ -39,7 +39,7 @@
 
         <div class="form-group">
             <label for="password_confirmation">Password Confirmation</label><br>
-            <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Ej. Abc$123!" required>
+            <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Ej. Abc$123!" required><br>
             @error('password_confirmation')
                 {{$message}}
             @enderror
@@ -47,7 +47,7 @@
         </div>
 
         <div class="form-group">
-            <input type="submit" value="Send">
+            <input type="submit" value="Sent">
         </div>
     </form>
 @endsection

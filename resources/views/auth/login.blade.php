@@ -27,6 +27,12 @@
 
         <div class="form-group">
             <input type="submit" value="Login">
+        </div><br>
+
+        <div class="form-group">
+            <small>
+                <a href="{{route('password.request')}}">Reestablecer Contraseña</a>
+            </small>
         </div>
     </form>
 @endsection
