@@ -8,6 +8,8 @@
 </head>
 <body>
 
+    @include('layouts.partials.navbar')
+    
     @yield('content')
     
 </body>
