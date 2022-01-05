@@ -1,28 +1,17 @@
 @extends('layouts.base')
 
-@section('title', 'Registro')
-    
-@section('content')
-    <h1>Registro</h1>
+@section('title', 'Nueva contraseña')
 
-    <form action="{{route('register')}}" method="post">
+@section('content')
+    <h1>Nueva Contrasñea</h1>
+
+    <form action="{{route('password.update')}}" method="post">
         @csrf
-        <div class="form-group">
-            <label for="name">Name</label><br>
-            <input type="text" name="name" id="name" autofocus placeholder="Name..." required value="{{old('name')}}"><br>
-            @error('name')
-                <small>
-                    {{$message}}
-                    <br>
-                </small>
-                <br>
-            @enderror
-            <br>
-        </div>
+        <input type="hidden" name="token" value="{{request()->route('token')}}">
 
         <div class="form-group">
             <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="Email..." required value="{{old('email')}}"><br>
+            <input type="email" name="email" id="email" placeholder="Email..." autofocus required value="{{old('email')}}"><br>
             @error('email')
                 <small>
                     {{$message}}
@@ -39,7 +28,6 @@
             @error('password')
                 <small>
                     {{$message}}
-                    <br>
                 </small>
                 <br>
             @enderror
@@ -52,7 +40,6 @@
             @error('password_confirmation')
                 <small>
                     {{$message}}
-                    <br>
                 </small>
                 <br>
             @enderror

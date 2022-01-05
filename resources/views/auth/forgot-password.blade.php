@@ -9,7 +9,10 @@
         @csrf
 
         @if (session('status'))
-            {{session('status')}}
+            <small>
+                {{session('status')}}
+                <br>
+            </small>
             <br>
         @endif
 
@@ -17,7 +20,10 @@
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email" autofocus required value="{{old('email')}}"><br>
             @error('email')
-                {{$message}}
+                <small>
+                    {{$message}}
+                    <br>
+                </small>
                 <br>
             @enderror
         </div><br>

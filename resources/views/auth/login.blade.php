@@ -5,13 +5,23 @@
 @section('content')
     <h1>Login</h1>
 
+    @if (session('status'))
+        <small>
+            {{session('status')}}
+            <br>
+        </small>
+        <br>
+    @endif
+
     <form action="{{route('login')}}" method="post">
         @csrf
         <div class="form-group">
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email" autofocus requiered><br>
             @error('email')
-                {{$message}}
+                <small>
+                    {{$message}}
+                </small>
                 <br>
             @enderror
         </div><br>
@@ -19,8 +29,11 @@
         <div class="form-group">
             <label for="password">Password</label><br>
             <input type="password" name="password" id="password" required><br>
-            @error('passeord')
-                {{$mesa}}
+            @error('password')
+                <small>
+                    {{$message}}
+                </small>
+                <br>
             @enderror
             <br>
         </div>
