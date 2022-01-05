@@ -7,6 +7,12 @@
 
     <form action="{{route('password.email')}}" method="post">
         @csrf
+
+        @if (session('status'))
+            {{session('status')}}
+            <br>
+        @endif
+
         <div class="form-group">
             <label for="email">Email</label><br>
             <input type="email" name="email" id="email" autofocus required value="{{old('email')}}"><br>
