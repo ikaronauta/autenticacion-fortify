@@ -29,7 +29,7 @@
         </div><br>
 
         <div class="form-group">
-            <input type="submit" value="Sent">
+            <input type="submit" value="Send">
         </div>
     </form>
 @endsection
