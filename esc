@@ -1,0 +1,101 @@
+[33mcommit 33873621eaa343c7c05cb8be3cacdcc44b40bec3[m[33m ([m[1;36mHEAD -> [m[1;32mverificacion-email[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Fri Jan 7 10:42:14 2022 -0500
+
+    update button send
+
+[33mcommit 1e2f37a954d581cdd1af6bc2c17d5e48876893f3[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 13:55:10 2022 -0500
+
+    reset-password
+
+[33mcommit 5b6e09473a764d7a68bd9c43b6031d884cd57176[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 13:29:08 2022 -0500
+
+    forgot-password
+
+[33mcommit 96103f4f44f0909ced5382b4b10c02cc63afc22c[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 11:40:20 2022 -0500
+
+    reestablecer contraseña
+
+[33mcommit 00ef91922d94c335699b8e6638ee7dc59ea7bd2e[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 11:25:18 2022 -0500
+
+    logout
+
+[33mcommit c455ce104cb2500b183fef35d083bdabc3b1e330[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 11:17:25 2022 -0500
+
+    login
+
+[33mcommit 8b72d7811a456618124aa216e8104e18f58ba47c[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 11:03:23 2022 -0500
+
+    update constant HOME
+
+[33mcommit 868de6b0474d44a465d5db6b22b397c645ebc659[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:58:30 2022 -0500
+
+    translate ES
+
+[33mcommit e0e4cb758a0ec01fca7fc35afa0772bf91728b0b[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:47:14 2022 -0500
+
+    register form
+
+[33mcommit bbc059814be97870e53f0905d83ed7d6f9f95e35[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:31:28 2022 -0500
+
+    update navbar add-link route-register
+
+[33mcommit 44349cd3ad78afc0e3522b1d3459654c3fd70617[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:28:29 2022 -0500
+
+    metodo register + views-folder-auth + view-register
+
+[33mcommit 0f87dc34dd470e4fbbb2adc1449ebf88596c306a[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:24:04 2022 -0500
+
+    navbar
+
+[33mcommit c65509ac8979ac2b162c8adffb4807779e3fbcc1[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 10:20:48 2022 -0500
+
+    view-base + homecontroller + view-home + update route /
+
+[33mcommit 3626769dd1d15d88a4b96115878c9d3676a3cac0[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 09:50:17 2022 -0500
+
+    registro FortifyServiceProvider
+
+[33mcommit c8824dbc671be4b446b244a85e09127c07a2bf9c[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 09:48:54 2022 -0500
+
+    Publicacion fortify
+
+[33mcommit c2dff2d440ade02324a9d6fd480fced09b019469[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 09:46:16 2022 -0500
+
+    Instalación fortify
+
+[33mcommit c7f6f71e019602abf54efb7aadddaa2f90db0ceb[m
+Author: ikaronauta <jaortiz0496@misena.edu.co>
+Date:   Wed Jan 5 09:15:27 2022 -0500
+
+    Inicio
